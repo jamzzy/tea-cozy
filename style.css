@@ -35,6 +35,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: black;
+    z-index: 2;
 }
 
 .logo {
