@@ -1,136 +1,198 @@
 /**Reset Style**/
 
 * {
-	vertical-align: baseline;
-	border: 0 none;
-	outline: 0;
-	padding: 0;
-	margin: 0;
-    box-sizing: border-box;
+  vertical-align: baseline;
+  border: 0 none;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-*, *:before, *:after {
-    box-sizing: inherit;
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 
 /**Universal Styles**/
 html {
-    font-size: 22px;
+  font-size: 22px;
 }
 
 body {
-    background-color: black;
-    color: seashell;
-    font-family: Helvetica;
-    opacity: 0.9;
-    text-align: center;
+  background-color: black;
+  color: seashell;
+  font-family: Helvetica;
+  opacity: 0.9;
+  text-align: center;
 }
 
 /**Header**/
 
 header {
-    position: fixed;
-    width: 100%;
-    height: 69px;
-    border-bottom: 1px solid seashell;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: black;
-    z-index: 2;
+  position: fixed;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  z-index: 2;
 }
 
 .logo {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 .logo img {
-    height: 50px;
-    width: auto;  
+  height: 50px;
+  width: auto;
 }
 
-.navigation {  
-    justify-content: space-between;  
+.navigation {
+  justify-content: space-between;
 }
 
 ul {
-    list-style-type: none;  
+  list-style-type: none;
 }
 
 li {
-    
-    display: inline-block;
-    text-decoration: underline;
-    margin-right: 10px;
-    margin-left: 10px; 
+  display: inline-block;
+  text-decoration: underline;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 /**Main Stylings**/
 
 main {
-    top: 70px;
-    position: relative;
-    width: 100%;
-    height: auto;
-    
+  top: 70px;
+  position: relative;
+  width: 100%;
+  height: auto;
 }
 
 .banner {
-    height: 700px;
-    width: auto;
-    background-image: url(./images/img-mission-background.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  height: 700px;
+  width: auto;
+  background-image: url(./images/img-mission-background.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .mission-headings {
-    width: 1200px;
-    background-color: black;
+  width: 1200px;
+  background-color: black;
 }
 
 h2 {
-    margin-top: 0.5rem;
+  margin-top: 0.5rem;
 }
 
 h4 {
-    margin-top: 1rem;
-    margin-bottom: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
 }
-
-
 
 .tea-of-month-section {
-    width: 1000px;
-    height: auto;
-    margin: 4rem auto;
+  width: 1000px;
+  height: auto;
+  margin: 4rem auto;
 }
 
-
 .image-container {
-    width: 300px;
-    height: auto;
-    margin-top: 0.8rem;
-    margin-left: 0.6rem;
-    margin-right: 0.6rem;
+  width: 300px;
+  height: auto;
+  margin-top: 0.8rem;
+  margin-left: 0.6rem;
+  margin-right: 0.6rem;
 }
 
 .image-container h4 {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .image-container img {
-    width: 100%;
-    height: 200px;
+  width: 100%;
+  height: 200px;
 }
 
 .row {
-    display: flex;
-    width: 1000px;
-    height: auto;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
+  display: flex;
+  width: 1000px;
+  height: auto;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
 }
+
+.location-section {
+  height: 500px;
+  width: 100%;
+
+  background-image: url(./images/img-locations-background.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  
+}
+
+.location-section h2 {
+  padding-top: 4rem;
+}
+
+.location-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.location {
+  background-color: black;
+  margin-left: 20px;
+  margin-right: 20px;
+  min-width: 300px;
+  opacity: 1;
+}
+
+.location h3 {
+  margin: 1rem auto;
+}
+
+.location p {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+footer {
+  position: relative;
+  top: 70px;
+}
+
+.contact-section {
+  height: 200px;
+  width: auto;
+}
+
+.contact-section h5{
+  margin-top: 2rem;
+}
+
+.copyright {
+  text-align: left;
+  
+}
+
+.copyright h5 {
+  padding-left: 20px;
+  padding-bottom: 1.5rem;
+  padding-top: 2rem;
+}
+
 
